@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO TRUST SOLUTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0c10;
+            color: #c5c6c7;
+        }
+        header {
+            background: #1f2833;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: #66fcf1;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #45a29e;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .service {
+            margin: 20px;
+            padding: 20px;
+            background: #1f2833;
+            border-radius: 10px;
+        }
+        .webinar {
+            margin: 20px;
+            padding: 20px;
+            background: #1f2833;
+            border-radius: 10px;
+        }
+        footer {
+            background: #1f2833;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        ZERO TRUST SOLUTIONS
+        <p style="font-size: 16px; color: #c5c6c7; margin-top: 5px;">Designed to equip customers with the skills needed to detect and respond to real-world cyber threats</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#webinars">Webinars</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to ZERO TRUST SOLUTIONS</h2>
+        <p>Your trusted partner in cyber security solutions.</p>
+        
+        <div id="services">
+            <h3>Our Services</h3>
+            <div class="service">Penetration Testing</div>
+            <div class="service">Network Security</div>
+            <div class="service">Threat Analysis</div>
+        </div>
+        
+        <div id="webinars">
+            <h3>Live Webinars</h3>
+            <div class="webinar">
+                <p>Join our live cyber security training sessions.</p>
+                <p><strong>Next Webinar:</strong> Understanding Zero Trust Architecture</p>
+                <p><strong>Date:</strong> April 10, 2025</p>
+                <p><strong>Time:</strong> 3:00 PM EST</p>
+                <a href="#" style="color: #66fcf1; text-decoration: none;">Join Webinar</a>
+            </div>
+        </div>
+        
+        <div id="about">
+            <h3>About Us</h3>
+            <p>ZERO TRUST SOLUTIONS is dedicated to protecting businesses from cyber threats. Our expert team ensures the highest level of security for your digital assets.</p>
+        </div>
+        
+        <div id="contact">
+            <h3>Contact Us</h3>
+            <p>Email: contact@zerotrust.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 ZERO TRUST SOLUTIONS. All rights reserved.
+    </footer>
+</body>
+</html>
